@@ -1,0 +1,7 @@
+bcrypt
+cryptography
+flask
+flask-login
+flask-sqlalchemy
+passlib
+SQLAlchemy-Utils

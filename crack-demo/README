@@ -1,0 +1,4 @@
+These files represent an incredibly naïve password cracker. To run them
+run `python generate_sha256_hashes.py`, then run `python sha256_cracker.py`.
+
+You can do the same with `generate_bcrypt_hashes.py` and `bcrypt_cracker.py`.

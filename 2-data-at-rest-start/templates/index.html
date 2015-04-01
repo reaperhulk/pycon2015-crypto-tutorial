@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+<form method="post" action="/upload" enctype="multipart/form-data">
+  <input type="file" name="file_data">
+  <button type="submit">Upload</button>
+</form>
+
+<a href="/logout">LOG OUT</a> <br />
+{% endblock %}

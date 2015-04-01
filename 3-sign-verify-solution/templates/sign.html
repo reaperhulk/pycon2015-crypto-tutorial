@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block body %}
+The HMAC is {{ digest }}.
+<hr>
+<form method="get" action="/verify">
+  Data:<br>
+  <textarea name="data">{{ data }}</textarea><br>
+  HMAC:<br>
+  <input type="text" value="{{ digest }}" name="digest">
+  <br>
+  <button type="submit">Verify</button>
+</form>
+{% endblock %}

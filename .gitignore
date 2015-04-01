@@ -1,0 +1,10 @@
+__pycache__/
+htmlcov/
+.tox/
+.cache/
+.coverage
+*.egg-info/
+*.egg
+.eggs/
+*.py[co]
+*.sqlite
